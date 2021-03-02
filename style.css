@@ -1,0 +1,282 @@
+/* *{
+
+    border: 1px solid black; 
+
+} */
+
+h1, h2, h3, body, p{
+
+    margin: 0;
+
+}
+
+ul, ol {
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+h1{
+
+    font-family: 'PlayFair Display', serif;
+    font-weight: normal;
+    font-size: 64px;
+
+}
+
+h3{
+
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 span{
+
+    font-weight: bold;
+
+}
+
+p{
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.profissao{
+
+    font-size: 24px;
+
+}
+
+.color-vr{
+
+    color: palevioletred;
+
+}
+
+body{
+
+    background-color:#e5e5e5;
+
+}
+
+header{
+
+    background-color: #ffffff;
+    padding: 32px 64px;
+
+}
+
+.dados{
+
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
+/* comentário (cntrl + k, cntrl + c) em vscode*/
+.foto{
+
+    border: 4px solid palevioletred;
+    border-radius: 50%;
+    margin-bottom: -100px;
+    margin-right: 74px;
+
+}
+
+main{
+
+    padding: 40px 70px;
+    display: flex;
+
+}
+
+.coluna-menor{
+
+    margin-top: 24px;
+    width: 300px;
+
+}
+
+.linha{
+
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 8px;
+
+}
+
+.experiencias .linha{
+
+    color: rgba(128, 5, 46, 0.795);
+
+}
+
+.formacao .linha{
+
+    color: #41138b;
+
+}
+
+.coluna-menor img{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 8px;
+
+}
+
+.coluna-menor li{
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+
+}
+
+.conteudo-lista{
+
+    display: inline-block;
+
+}
+
+.coluna-maior{
+
+    margin-left: 24px;
+
+}
+
+.section h2{
+
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+
+.conteiner{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card{
+
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 12px;
+    width: 280px;
+
+}
+
+.card h3{
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+
+.card p{
+
+    font-size: 20px;
+
+}
+
+.card li{
+
+    margin-top: 32px;
+
+}
+
+.card li:first-child{
+
+    margin-top: 0px;
+
+}
+
+.progresso{
+
+    width: 100%;
+    display: flex;
+
+}
+
+.barra{
+
+    margin-top: 8px;
+    width: 20%;
+    height: 4px;
+    background-color: palevioletred;
+
+}
+
+.vazia{
+
+    opacity: 0.2;
+
+}
+
+.card-projeto{
+
+    width: 392px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 12px;
+
+}
+
+.card-projeto img{
+
+    width: 70%;
+
+}
+
+.card-projeto h3{
+
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.card-projeto p{
+
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+}
+
+.card-projeto a{
+
+    display: inline-block;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+    padding: 8px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 24px;
+
+}
+
+.card-projeto a:hover{
+
+    background-color: palevioletred;
+    color: white;
+
+}
+
+footer{
+
+    background-color: palevioletred;
+    color: white;
+    padding: 57.6px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
